@@ -185,7 +185,7 @@ export default function Form({
         </select>
       </div>
       <div className="buttons">
-        <a className="search-avanced">> Busca Avançada</a>
+        <a className="search-avanced"> Busca Avançada</a>
         <div>
           <button
             className="clear"

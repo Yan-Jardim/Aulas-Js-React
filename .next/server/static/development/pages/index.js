@@ -110,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Lenovo\\Documents\\Agua-Viva\\pages\\index.jsx";
+var _jsxFileName = "C:\\Users\\felip\\OneDrive\\Dokumente\\Yan\\Aulas-Js-React\\Agua-Viva\\pages\\index.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -273,7 +273,8 @@ function Page() {
   }; // null | "" | undefined | false
 
 
-  const existe = true; // 1 se eu colocar minha variavel com um valor que existe meu select vai exibir os cultos de sabados
+  const existe = 'false';
+  const Ativo = true; // 1 se eu colocar minha variavel com um valor que existe meu select vai exibir os cultos de sabados
   //quando nao atender ela vai exibir cultos de terça feira
   // 2 criar uma segunda variavel que se for igual a "Ativo" exiba o botao inscrever
 
@@ -281,46 +282,46 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
-      columnNumber: 7
+      lineNumber: 136,
+      columnNumber: 13
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
-      columnNumber: 9
+      lineNumber: 137,
+      columnNumber: 17
     }
   }, "Igreja Batista \xC1gua Viva - Ribeir\xE3o Pires")), existe && __jsx("div", {
     className: "container",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
-      columnNumber: 7
+      lineNumber: 141,
+      columnNumber: 17
     }
   }, __jsx("div", {
     className: "header",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
-      columnNumber: 9
+      lineNumber: 142,
+      columnNumber: 21
     }
   }, __jsx("img", {
     src: "/images/logo.jpg",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
-      columnNumber: 11
+      lineNumber: 143,
+      columnNumber: 25
     }
   }), __jsx("h1", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
-      columnNumber: 11
+      lineNumber: 144,
+      columnNumber: 25
     }
   }, "Formul\xE1rio para culto dos jovens (24/04)")), (qtdDomingoManha < qtdMAxima || qtdDomingoNoite < qtdMAxima) && // <>
   //   {(dia_sem == 0 || dia_sem == 5 || dia_sem == 6) && (
@@ -329,15 +330,15 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
-      columnNumber: 19
+      lineNumber: 153,
+      columnNumber: 33
     }
   }, __jsx("label", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
-      columnNumber: 21
+      lineNumber: 154,
+      columnNumber: 37
     }
   }, "Nome"), nomeLimpar && __jsx("input", {
     onKeyUp: e => setNome(e.currentTarget.value),
@@ -348,8 +349,8 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
-      columnNumber: 23
+      lineNumber: 156,
+      columnNumber: 41
     }
   }), !nomeLimpar && __jsx("input", {
     onKeyUp: e => setNome(e.currentTarget.value),
@@ -360,22 +361,22 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
-      columnNumber: 23
+      lineNumber: 165,
+      columnNumber: 41
     }
   }), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
-      columnNumber: 21
+      lineNumber: 174,
+      columnNumber: 37
     }
   }), __jsx("label", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
-      columnNumber: 21
+      lineNumber: 175,
+      columnNumber: 37
     }
   }, "Sobrenome"), sobrenomeLimpar && __jsx("input", {
     onKeyUp: e => setSobrenome(e.currentTarget.value),
@@ -385,8 +386,8 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
-      columnNumber: 23
+      lineNumber: 177,
+      columnNumber: 41
     }
   }), !sobrenomeLimpar && __jsx("input", {
     onKeyUp: e => setSobrenome(e.currentTarget.value),
@@ -396,22 +397,22 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
-      columnNumber: 23
+      lineNumber: 185,
+      columnNumber: 41
     }
   }), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190,
-      columnNumber: 21
+      lineNumber: 192,
+      columnNumber: 37
     }
   }), __jsx("label", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
-      columnNumber: 21
+      lineNumber: 193,
+      columnNumber: 37
     }
   }, "Discipulado"), redeLimpar && __jsx("select", {
     onChange: e => {
@@ -421,56 +422,56 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193,
-      columnNumber: 23
+      lineNumber: 195,
+      columnNumber: 41
     }
   }, __jsx("option", {
     value: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
-      columnNumber: 25
+      lineNumber: 201,
+      columnNumber: 45
     }
   }, "Selecione seu discipulado"), __jsx("option", {
     value: "isabela",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
-      columnNumber: 25
+      lineNumber: 202,
+      columnNumber: 45
     }
   }, "Isabela Amaro"), __jsx("option", {
     value: "matheus",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201,
-      columnNumber: 25
+      lineNumber: 203,
+      columnNumber: 45
     }
   }, "Matheus Amaro"), __jsx("option", {
     value: "felipe",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
-      columnNumber: 25
+      lineNumber: 204,
+      columnNumber: 45
     }
   }, "Felipe Ramos"), __jsx("option", {
     value: "silas",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
-      columnNumber: 25
+      lineNumber: 205,
+      columnNumber: 45
     }
   }, "Silas Souza"), __jsx("option", {
     value: "elaine",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206,
-      columnNumber: 25
+      lineNumber: 208,
+      columnNumber: 45
     }
   }, "Elaine Jeremias ")), !redeLimpar && __jsx("select", {
     onChange: e => {
@@ -480,70 +481,70 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210,
-      columnNumber: 23
+      lineNumber: 212,
+      columnNumber: 41
     }
   }, __jsx("option", {
     value: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216,
-      columnNumber: 25
+      lineNumber: 218,
+      columnNumber: 45
     }
   }, "Selecione seu discipulado"), __jsx("option", {
     value: "isabela",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217,
-      columnNumber: 25
+      lineNumber: 219,
+      columnNumber: 45
     }
   }, "Isabela Amaro"), __jsx("option", {
     value: "matheus",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218,
-      columnNumber: 25
+      lineNumber: 220,
+      columnNumber: 45
     }
   }, "Matheus Amaro"), __jsx("option", {
     value: "felipe",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219,
-      columnNumber: 25
+      lineNumber: 221,
+      columnNumber: 45
     }
   }, "Felipe Ramos"), __jsx("option", {
     value: "silas",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
-      columnNumber: 25
+      lineNumber: 222,
+      columnNumber: 45
     }
   }, "Silas Souza"), __jsx("option", {
     value: "elaine",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
-      columnNumber: 25
+      lineNumber: 225,
+      columnNumber: 45
     }
   }, "Elaine Jeremias ")), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226,
-      columnNumber: 21
+      lineNumber: 228,
+      columnNumber: 37
     }
   }), __jsx("label", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227,
-      columnNumber: 21
+      lineNumber: 229,
+      columnNumber: 37
     }
   }, "Qual culto deseja ir?"), __jsx("select", {
     onChange: e => {
@@ -553,131 +554,131 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 228,
-      columnNumber: 21
+      lineNumber: 230,
+      columnNumber: 37
     }
   }, __jsx("option", {
     value: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234,
-      columnNumber: 23
+      lineNumber: 236,
+      columnNumber: 41
     }
   }, "Selecione o culto"), qtdDomingoManha < qtdMAxima && __jsx("option", {
     value: "manha",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239,
-      columnNumber: 25
+      lineNumber: 241,
+      columnNumber: 45
     }
   }, "S\xE1bado - 15hs"), qtdDomingoNoite < qtdMAxima && __jsx("option", {
     value: "noite",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242,
-      columnNumber: 25
+      lineNumber: 244,
+      columnNumber: 45
     }
   }, "S\xE1bado - 17:30hs ")), __jsx("div", {
     className: "vagas",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263,
-      columnNumber: 21
+      lineNumber: 265,
+      columnNumber: 37
     }
   }, __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 283,
-      columnNumber: 23
+      lineNumber: 285,
+      columnNumber: 41
     }
-  }, "S\xE1bado 15:00hs -", qtdDomingoManha >= qtdMAxima && __jsx("small", {
+  }, existe === 'true' ? __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, " S\xE1bado 15:00hs -  ") : __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, " Ter\xE7a 19:00hs "), qtdDomingoManha >= qtdMAxima && __jsx("small", {
     className: "red",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 286,
-      columnNumber: 27
+      lineNumber: 289,
+      columnNumber: 49
     }
   }, " vagas encerradas"), qtdDomingoManha < qtdMAxima && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, qtdDomingoManha >= 0 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, " ", "resta", qtdDomingoManha != qtdMAxima - 1 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, "m")), qtdDomingoManha >= 0 && __jsx("small", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 298,
-      columnNumber: 31
+      lineNumber: 301,
+      columnNumber: 57
     }
   }, " ", qtdMAxima - qtdDomingoManha), qtdDomingoManha >= 0 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, " ", "vaga", qtdDomingoManha != qtdMAxima - 1 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, "s")))), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 309,
-      columnNumber: 23
+      lineNumber: 312,
+      columnNumber: 41
     }
   }, "S\xE1bado 17:30hs -", qtdDomingoNoite >= qtdMAxima && __jsx("small", {
     className: "red",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 312,
-      columnNumber: 27
+      lineNumber: 315,
+      columnNumber: 49
     }
   }, " vagas encerradas"), qtdDomingoNoite < qtdMAxima && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, qtdDomingoNoite >= 0 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, " ", "resta", qtdDomingoNoite != qtdMAxima - 1 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, "m")), qtdDomingoNoite >= 0 && __jsx("small", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 324,
-      columnNumber: 31
+      lineNumber: 327,
+      columnNumber: 57
     }
   }, " ", qtdMAxima - qtdDomingoNoite), qtdDomingoNoite >= 0 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, " ", "vaga", qtdDomingoNoite != qtdMAxima - 1 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, "s"))))), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 337,
-      columnNumber: 21
+      lineNumber: 340,
+      columnNumber: 37
     }
-  }), __jsx("button", {
+  }), Ativo && 'true' ? __jsx("button", {
     onClick: salve,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 338,
-      columnNumber: 21
+      lineNumber: 342,
+      columnNumber: 56
     }
-  }, "Inscrever"), __jsx("a", {
+  }, "Inscrever") : false, __jsx("a", {
     href: "/listagem.html",
     className: "listagem",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 339,
-      columnNumber: 21
+      lineNumber: 346,
+      columnNumber: 37
     }
   }, "Verifique a listagem")) : __jsx("p", {
     className: "carregando",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 344,
-      columnNumber: 19
+      lineNumber: 351,
+      columnNumber: 33
     }
   }, __jsx("img", {
     src: "/images/loading.gif",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 345,
-      columnNumber: 21
+      lineNumber: 352,
+      columnNumber: 37
     }
   }), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 346,
-      columnNumber: 21
+      lineNumber: 353,
+      columnNumber: 37
     }
   }, "Carregando..."))) //   )}
   // </>
@@ -685,32 +686,32 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 361,
-      columnNumber: 13
+      lineNumber: 368,
+      columnNumber: 29
     }
   }, __jsx("p", {
     className: "paragrafo",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 362,
-      columnNumber: 15
+      lineNumber: 369,
+      columnNumber: 33
     }
   }, "Infelizmente todos os cultos presenciais ja esgotaram sua capacidade exigida por lei, mas acompanhe online pelas nossas redes sociais", __jsx("div", {
     className: "redes",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 366,
-      columnNumber: 17
+      lineNumber: 373,
+      columnNumber: 37
     }
   }, __jsx("a", {
     href: "https://www.youtube.com/channel/UCSgeLNbDf68linYZ7XBzuug/videos",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 367,
-      columnNumber: 19
+      lineNumber: 374,
+      columnNumber: 41
     }
   }, __jsx("img", {
     src: "/images/youtube.svg",
@@ -718,16 +719,16 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 368,
-      columnNumber: 21
+      lineNumber: 375,
+      columnNumber: 45
     }
   })), __jsx("a", {
     href: "https://www.facebook.com/IbavRibeiraoPires/",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 370,
-      columnNumber: 19
+      lineNumber: 377,
+      columnNumber: 41
     }
   }, __jsx("img", {
     src: "/images/facebook.svg",
@@ -735,16 +736,16 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 371,
-      columnNumber: 21
+      lineNumber: 378,
+      columnNumber: 45
     }
   })), __jsx("a", {
     href: "https://www.instagram.com/ibavrp/",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 373,
-      columnNumber: 19
+      lineNumber: 380,
+      columnNumber: 41
     }
   }, __jsx("img", {
     src: "/images/instagram.svg",
@@ -752,8 +753,8 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 374,
-      columnNumber: 21
+      lineNumber: 381,
+      columnNumber: 45
     }
   }))), __jsx("a", {
     href: "/listagem.html",
@@ -761,8 +762,8 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 377,
-      columnNumber: 17
+      lineNumber: 384,
+      columnNumber: 37
     }
   }, "Verifique a listagem dos cultos presenciais")))));
 }
@@ -778,7 +779,7 @@ function Page() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Lenovo\Documents\Agua-Viva\pages\index.jsx */"./pages/index.jsx");
+module.exports = __webpack_require__(/*! C:\Users\felip\OneDrive\Dokumente\Yan\Aulas-Js-React\Agua-Viva\pages\index.jsx */"./pages/index.jsx");
 
 
 /***/ }),
